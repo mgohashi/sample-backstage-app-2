@@ -10,6 +10,6 @@ spec:
   owner: group:team1
   system: sample-backstage-system
   dependsOn:
-    - resource:default/sample-backstage-app-1
+    - component:sample-backstage-app-1
   consumesApis:
     - sample-backstage-app-1-api
